@@ -4,7 +4,9 @@
     <DemoOne />
     <DemoTwo />
     <Method /><br>
-    <VModel />
+    <VModel /><br><br>
+    <Computed />
+    <Watch />
   </div>
 </template>
 
@@ -14,6 +16,8 @@
   import DemoTwo from "./components/DemoTwo.vue";
   import Method from "./components/Method.vue";
   import VModel from "./components/VModel.vue";
+  import Computed from "./components/Computed.vue";
+  import Watch from "./components/Watch.vue";
 
   export default {
     name: 'App',
@@ -23,6 +27,9 @@
       DemoTwo,
       Method,
       VModel,
+      Computed,
+      Watch,
+
     }
     
   }
