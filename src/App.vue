@@ -7,6 +7,9 @@
     <VModel /><br><br>
     <Computed />
     <Watch />
+    <ProvideInject />
+    <TemplateRef /><br>
+    <Person />
   </div>
 </template>
 
@@ -18,6 +21,9 @@
   import VModel from "./components/VModel.vue";
   import Computed from "./components/Computed.vue";
   import Watch from "./components/Watch.vue";
+  import ProvideInject from "./components/ProvideInject.vue";
+  import TemplateRef from "./components/TemplateRef.vue";
+  import Person from "./components/Person.vue";
 
   export default {
     name: 'App',
@@ -29,7 +35,9 @@
       VModel,
       Computed,
       Watch,
-
+      ProvideInject,
+      TemplateRef,
+      Person,
     }
     
   }
